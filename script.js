@@ -767,7 +767,41 @@ var adjective = ['adorable',	'adventurous',	'aggressive',
 'wrong',	'zany',	'zealous'
 ]
 
-var options = [color, noun, adjective]
+var myth_creature = ['werewolf', 'dragon', 'chimera',
+'loch ness monster', 'mermaid', 'yeti',
+'basilisk', 'sphinx', 'medusa',
+'griffin', 'centaur', 'hippogriff',
+'fairy', 'kappa', 'pegasus',
+'ghoul', 'pixie', 'cyclops',
+'redcap', 'manticore', 'typhon', 
+'sea serpent', 'leprechaun', 'fenrir',
+'hippocampus', 'cipactli', 'imp',
+'minotaur', 'hydra', 'fomorian',
+'charybdis', 'behemoth', 'cerberus',
+'echidna', 'adlet', 'cacus',
+'hecatoncheires', 'geryon', 'scorpian man',
+'fachan', 'ogre', 'humbaba',
+'scylla', 'hadhayosh', 'kee-wakw',
+'abaid', 'calygreyhound', 'phoenix',
+'Tarasque', 'Cockatrice', 'Harpy',
+'Makara', 'Ammit', 'Garuda', 
+'Winged Lion', 'Leviathan', 'Wyvern', 
+'Namazu', 'Yale/Centicore', 'Questing Beast', 
+'Elf', 'Mares of Diomedes', 'Serpopard', 
+'Antero Vipunen', 'Indus Worm', 'Ahuizotl', 
+'Psoglav', 'Aspidochelone', 'Sirin', 
+'Cynocephaly', 'Myrmecoleon', 'Argus Panoptes', 
+'Ekek', 'Oozlum Bird', 'Hellhound', 
+'Monocerus', 'Water Leper', 'Ophiotaurus', 
+'Unktehila', 'Capacun', 'Mapinguari', 
+'Yali', 'Fish-Man', 'Asakku', 
+'Sleipnir', 'A-senee-ki-wakw', 'Ushi-oni', 
+'Longma', 'Nguruvilu', 'Lou Carcolh', 
+'Yacuruna', 'Bashee', 'Teju Jagua', 
+'Indrik', 'Onocentaur', 'Simargl', 
+'Erchitu', 'Huay Chay', 'Laestrygonians', 'Mboi Tui']
+
+var options = [color, noun, adjective, myth_creature]
 
 function gen(){
 	var count = parseInt($('#count').val());
