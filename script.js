@@ -801,7 +801,7 @@ var myth_creature = ['werewolf', 'dragon', 'chimera',
 'Indrik', 'Onocentaur', 'Simargl', 
 'Erchitu', 'Huay Chay', 'Laestrygonians', 'Mboi Tui']
 
-var options = [color, noun, adjective, myth_creature]
+var options = [noun, adjective, myth_creature]
 
 function gen(){
 	var count = parseInt($('#count').val());
